@@ -2,9 +2,9 @@
 
 ## Exercícios JavaScript - Tipos de Dados e Estruturas de Decisão
 
-### 🟢 TRIVIAL
+## 🟢 TRIVIAL
 
-#### 1. Verificar se um número é positivo
+### 1. Verificar se um número é positivo
 
 Crie uma função que receba um número e retorne "positivo" se for maior que 0, "negativo" se for menor que 0, ou "zero" se for igual a 0.
 
@@ -25,7 +25,7 @@ console.log(verificarNumero(-3));  // "negativo"
 console.log(verificarNumero(0));   // "zero"
 ```
 
-#### 2. Verificar tipo de dado
+### 2. Verificar tipo de dado
 
 Escreva uma função que receba uma variável e retorne seu tipo usando `typeof`.
 
@@ -44,7 +44,7 @@ console.log(verificarTipo(null));      // "object"
 console.log(verificarTipo(undefined)); // "undefined"
 ```
 
-#### 3. Par ou ímpar
+### 3. Par ou ímpar
 
 Crie uma função que determine se um número é par ou ímpar.
 
@@ -68,7 +68,7 @@ console.log(parOuImpar(7));   // "ímpar"
 console.log(parOuImpar(0));   // "par"
 ```
 
-#### 4. Maior de dois números
+### 4. Maior de dois números
 
 Faça uma função que receba dois números e retorne o maior deles.
 
@@ -97,7 +97,7 @@ console.log(maiorNumero(3, 8));    // 8
 console.log(maiorNumero(7, 7));    // 7
 ```
 
-#### 5. Verificar se é string vazia
+### 5. Verificar se é string vazia
 
 Crie uma função que verifique se uma string está vazia ou não.
 
@@ -127,9 +127,9 @@ console.log(stringVazia("   "));       // false
 console.log(stringVaziaOuSoEspacos("   ")); // true
 ```
 
-### 🔵 BÁSICO
+## 🔵 BÁSICO
 
-#### 6. Calculadora simples
+### 6. Calculadora simples
 
 Desenvolva uma calculadora que receba dois números e uma operação (+, -, \*, /) e retorne o resultado.
 
@@ -161,7 +161,7 @@ console.log(calculadora(10, 0, "/"));  // "Erro: Divisão por zero"
 console.log(calculadora(10, 5, "%"));  // "Operação inválida"
 ```
 
-#### 7. Classificação de idade
+### 7. Classificação de idade
 
 Crie uma função que classifique a idade: criança (0-12), adolescente (13-17), adulto (18-59), idoso (60+).
 
@@ -188,7 +188,7 @@ console.log(classificarIdade(70));  // "idoso"
 console.log(classificarIdade(-5));  // "idade inválida"
 ```
 
-#### 8. Dia da semana
+### 8. Dia da semana
 
 Faça uma função que receba um número (1-7) e retorne o dia da semana correspondente.
 
@@ -232,7 +232,7 @@ console.log(diaDaSemana(7));  // "Domingo"
 console.log(diaDaSemana(8));  // "Número inválido. Use 1-7."
 ```
 
-#### 9. Verificar se é número
+### 9. Verificar se é número
 
 Crie uma função que determine se um valor é realmente um número (não NaN, não string numérica).
 
@@ -255,7 +255,7 @@ console.log(ehNumero(true));      // false
 console.log(ehNumeroFinito(Infinity)); // false
 ```
 
-#### 10. Comparar três números
+### 10. Comparar três números
 
 Escreva uma função que receba três números e retorne qual é o maior, o menor, e o do meio.
 
@@ -303,7 +303,7 @@ console.log(compararTresNumeros(10, 5, 8));  // {menor: 5, meio: 8, maior: 10}
 console.log(compararTresNumeros(3, 3, 7));   // {menor: 3, meio: 3, maior: 7}
 ```
 
-#### 11. Validar senha simples
+### 11. Validar senha simples
 
 Crie uma função que verifique se uma senha tem pelo menos 6 caracteres e contenha pelo menos um número.
 
@@ -335,7 +335,7 @@ console.log(validarSenha("ab1"));        // false
 console.log(validarSenhaRegex("senha9")); // true
 ```
 
-#### 12. Conversor de notas
+### 12. Conversor de notas
 
 Faça uma função que converta notas numéricas (0-100) em conceitos (A, B, C, D, F).
 
@@ -367,9 +367,9 @@ console.log(converterNota(45));  // "F"
 console.log(converterNota(105)); // "Nota inválida"
 ```
 
-### 🟡 MÉDIO
+## 🟡 MÉDIO
 
-#### 13. Validador de CPF básico
+### 13. Validador de CPF básico
 
 Crie uma função que verifique se um CPF tem 11 dígitos e não é uma sequência repetida (111.111.111-11).
 
@@ -404,7 +404,7 @@ console.log(validarCPFBasico("123.456.789-1"));  // false
 console.log(validarCPFBasico("abc.def.ghi-jk")); // false
 ```
 
-#### 14. Calculadora de IMC com classificação
+### 14. Calculadora de IMC com classificação
 
 Desenvolva uma função que calcule o IMC e retorne a classificação (abaixo do peso, normal, sobrepeso, obesidade).
 
@@ -443,7 +443,7 @@ console.log(calcularIMC(50, 1.70));  // {imc: "17.30", classificacao: "Abaixo do
 console.log(calcularIMC(90, 1.75));  // {imc: "29.39", classificacao: "Sobrepeso"}
 ```
 
-#### 15. Verificador de ano bissexto
+### 15. Verificador de ano bissexto
 
 Implemente a lógica completa para determinar se um ano é bissexto.
 
@@ -480,7 +480,7 @@ console.log(ehAnoBissexto(1900));  // false
 console.log(ehAnoBissexto(2000));  // true
 ```
 
-#### 16. Validador de email básico
+### 16. Validador de email básico
 
 Crie uma função que verifique se um email tem formato válido (contém @ e ponto, não começa/termina com caracteres especiais).
 
@@ -535,7 +535,7 @@ console.log(validarEmailBasico("user@example."));       // false
 console.log(validarEmailBasico("user@example.c"));      // false
 ```
 
-#### 17. Jogo de pedra, papel, tesoura
+### 17. Jogo de pedra, papel, tesoura
 
 Desenvolva uma função que simule o jogo, recebendo as escolhas de dois jogadores e determinando o vencedor.
 
@@ -573,7 +573,7 @@ console.log(pedraPapelTesoura("pedra", "papel"));    // "Jogador 2 vence!"
 console.log(pedraPapelTesoura("pedra", "pedra"));    // "Empate!"
 ```
 
-#### 18. Classificador de triângulos
+### 18. Classificador de triângulos
 
 Faça uma função que determine se três lados podem formar um triângulo e classifique-o (equilátero, isósceles, escaleno).
 
@@ -607,7 +607,7 @@ console.log(classificarTriangulo(1, 1, 5));    // "Não forma um triângulo"
 console.log(classificarTriangulo(-1, 2, 3));   // "Lados devem ser positivos"
 ```
 
-#### 19. Conversor de temperatura múltiplo
+### 19. Conversor de temperatura múltiplo
 
 Crie uma função que converta temperaturas entre Celsius, Fahrenheit e Kelvin.
 
@@ -666,7 +666,7 @@ console.log(converterTemperatura(273.15, "kelvin", "celsius"));   // 0
 console.log(converterTemperatura(100, "celsius", "kelvin"));      // 373.15
 ```
 
-#### 20. Sistema de desconto progressivo
+### 20. Sistema de desconto progressivo
 
 Implemente um sistema que calcule descontos baseados no valor da compra (0-100: 0%, 101-500: 5%, 501-1000: 10%, 1000+: 15%).
 
@@ -706,9 +706,9 @@ console.log(calcularDesconto(800));   // 10% desconto
 console.log(calcularDesconto(1500));  // 15% desconto
 ```
 
-### 🔴 AVANÇADO
+## 🔴 AVANÇADO
 
-#### 21. Validador de cartão de crédito (Algoritmo de Luhn)
+### 21. Validador de cartão de crédito (Algoritmo de Luhn)
 
 Implemente o algoritmo de Luhn para validar números de cartão de crédito.
 
