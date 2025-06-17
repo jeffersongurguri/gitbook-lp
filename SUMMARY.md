@@ -9,4 +9,5 @@
 * [Controle de Fluxo com if](controle-de-fluxo-com-if.md)
 * [Controle de fluxo com Switch](controle-de-fluxo-com-switch.md)
 * [Exercícios - Désvios Condicionais](exercicios-desvios-condicionais.md)
+* [Estruturas de repetição - While e Do-While](estruturas-de-repeticao-while-e-do-while.md)
 * [Exercícios - Estrutura de Repetição - While](exercicios-estrutura-de-repeticao-while.md)
