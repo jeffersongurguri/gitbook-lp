@@ -8,3 +8,5 @@
 * [Introdução ao Terminal](introducao-ao-terminal.md)
 * [Controle de Fluxo com if](controle-de-fluxo-com-if.md)
 * [Controle de fluxo com Switch](controle-de-fluxo-com-switch.md)
+* [Exercícios - Désvios Condicionais](exercicios-desvios-condicionais.md)
+* [Exercícios - Estrutura de Repetição - While](exercicios-estrutura-de-repeticao-while.md)
