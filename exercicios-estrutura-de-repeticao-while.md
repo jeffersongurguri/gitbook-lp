@@ -22,7 +22,7 @@ Crie uma função contagemRegressiva(tempoInicial) que recebe um número inteiro
 
 JavaScript
 
-```
+```javascript
 contagemRegressiva(5);
 // Saída esperada:
 // 5
@@ -47,7 +47,7 @@ Crie uma função monitorarNivelGas(nivelAtual, limiteCritico) que recebe o nive
 
 JavaScript
 
-```
+```javascript
 monitorarNivelGas(98, 100);
 // Saída esperada:
 // Nível de Gás: 98.5
@@ -73,7 +73,7 @@ Crie uma função tentarConexao(maxTentativas) que recebe o número máximo de t
 
 JavaScript
 
-```
+```javascript
 tentarConexao(3);
 // Saída esperada:
 // Tentando conexão... (Tentativa 1 de 3)
@@ -96,7 +96,7 @@ Crie uma função realizarVarredura(leiturasDesejadas) que recebe o número de l
 
 JavaScript
 
-```
+```javascript
 realizarVarredura(4);
 // Saída esperada:
 // Realizando leitura do sensor... (Leitura 1 de 4)
@@ -120,7 +120,7 @@ Crie uma função processarFilaImpressao(quantidadeTarefas) que recebe a quantid
 
 JavaScript
 
-```
+```javascript
 processarFilaImpressao(3);
 // Saída esperada:
 // Processando tarefa de impressão... (Restam 2 tarefas)
@@ -131,12 +131,3 @@ processarFilaImpressao(3);
 
 ***
 
-**Instruções para os alunos:**
-
-1. Crie um novo arquivo JavaScript (por exemplo, `automacao_while.js`).
-2. Copie e cole todo o conteúdo deste Markdown nele.
-3. Para cada exercício, escreva a função correspondente.
-4. Teste suas funções com os exemplos fornecidos e adicione seus próprios testes para garantir que tudo funcione como esperado.
-5. Execute seu código usando Node.js (se estiver no ambiente de desenvolvimento) ou no console do navegador.
-
-Espero que essa compilação seja útil para a sua prática de JavaScript!
