@@ -10,4 +10,6 @@
 * [Controle de fluxo com Switch](controle-de-fluxo-com-switch.md)
 * [Exercícios - Désvios Condicionais](exercicios-desvios-condicionais.md)
 * [Estruturas de repetição - While e Do-While](estruturas-de-repeticao-while-e-do-while.md)
+* [Estruturas de Repetição](estruturas-de-repeticao.md)
 * [Exercícios - Estrutura de Repetição - While](exercicios-estrutura-de-repeticao-while.md)
+* [Lista de Exercícios de JavaScript: Fundamentos de Programação](lista-de-exercicios-de-javascript-fundamentos-de-programacao.md)
